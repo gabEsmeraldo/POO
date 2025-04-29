@@ -1,7 +1,8 @@
-public class Acao{
-    private Date dataHora;
-
+abstract class Acao{
+    private DateTime dataHora;
+    private String nome;
     Acao(){
-        
+        dataHora = ;
+
     }
 }
