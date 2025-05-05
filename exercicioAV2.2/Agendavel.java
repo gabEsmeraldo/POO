@@ -1,3 +1,3 @@
 public interface Agendavel{
-    public void marcarHorario(Acao);
+    public void marcarHorario(Acao acao);
 }

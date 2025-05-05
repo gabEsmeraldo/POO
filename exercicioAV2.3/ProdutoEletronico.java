@@ -27,6 +27,6 @@ public class ProdutoEletronico extends Produto{
     public void exibirInformacoes(){
         System.out.println(getNome());
         System.out.println(getPrecoBase());
-        System.out.println(getGarantia());
+        System.out.println(getGarantia() + " Meses de garantia.");
     }
 }
